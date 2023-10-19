@@ -1,0 +1,147 @@
+/* body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#form{
+    width:400px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:30px;
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(5, 88, 196);
+    background: linear-gradient(0deg, rgb(26, 173, 58) 0%, rgb(214, 186, 24) 90%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+#form{
+    width: 500px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    box-shadow: inset 0px 0px 10px rgb(219, 206, 23), 0px 0px 16px rgb(0, 0, 0);
+
+}
+h1{
+    text-align: center;
+    color: rgb(224, 84, 28);
+}
+#form button{
+    background: linear-gradient(120deg,rgba(1, 2, 58, 0.87),rgba(16, 226, 216, 0.904));
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-grup label{
+    font-size: 20px;
+
+}
+.input-grup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.input-grup input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 187);
+}
+.input-grup input:focus{
+    outline: 0;
+    box-shadow: 0px 0px 4px rgb(255, 238, 0);
+}
+.input-grup .error{
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.input-grup.success input{
+    border-color:rgb(14, 231, 14);
+}
+
+.input-grup.error input{
+    border-color:rgb(231, 19, 12);
+}
+.todo{
+    font-size: 20px;
+    background-color: rgb(247, 224, 16);
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 10px rgb(172, 165, 165), 0px 0px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+}
+@media only screen and (max-width: 700px) {
+    #form{
+        width: 300px;
+    }
+    
+}
